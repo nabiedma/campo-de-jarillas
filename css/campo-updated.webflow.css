@@ -232,7 +232,6 @@ html {
     -ms-flex-align: center;
     align-items: center;
     background-blend-mode: multiply;
-    mix-blend-mode: multiply;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 232, 224, 0)), color-stop(25%, rgba(235, 232, 224, 0.65)), color-stop(75%, rgba(235, 232, 224, 0.65)), to(rgba(235, 232, 224, 0)));
     background-image: linear-gradient(180deg, rgba(235, 232, 224, 0), rgba(235, 232, 224, 0.65) 25%, rgba(235, 232, 224, 0.65) 75%, rgba(235, 232, 224, 0));
   }
@@ -1581,10 +1580,9 @@ html {
   .section-gradient-red-up {
     width: 100%;
     height: 350vw;
+    background-blend-mode: multiply;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 0, 0, 0)), to(rgba(153, 0, 0, 0.8)));
     background-image: linear-gradient(180deg, rgba(153, 0, 0, 0), rgba(153, 0, 0, 0.8));
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
   }
 
   .section-hour-red {
@@ -1607,10 +1605,9 @@ html {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    background-blend-mode: multiply;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 0, 0, 0.8)), to(rgba(153, 0, 0, 0.8)));
     background-image: linear-gradient(180deg, rgba(153, 0, 0, 0.8), rgba(153, 0, 0, 0.8));
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
   }
 
   .div-poema-vertical {
@@ -1635,10 +1632,9 @@ html {
   .section-gradient-red-down {
     width: 100%;
     height: 350vw;
+    background-blend-mode: multiply;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 0, 0, 0.8)), to(rgba(153, 0, 0, 0.4)));
     background-image: linear-gradient(180deg, rgba(153, 0, 0, 0.8), rgba(153, 0, 0, 0.4));
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
   }
 
   .section-gifs-5 {
